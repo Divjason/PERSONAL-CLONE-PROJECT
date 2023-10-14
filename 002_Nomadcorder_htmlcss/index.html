@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create An Account</h1>
+      <form action="https://nomadcoders.co/" method="get">
+        <div class="account_box">
+          <label for="firstname">First name</label>
+          <input type="text" id="firstname" placeholder="firstname" required />
+        </div>
+        <div class="account_box">
+          <label for="lastname">Last name</label>
+          <input type="text" id="lastname" placeholder="lastname" required />
+        </div>
+        <div class="account_box">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="abc@lalala.com"
+            required
+          />
+        </div>
+        <div class="account_box">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="username" required />
+        </div>
+        <div class="account_box">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="********"
+            minlength="10"
+            required
+          />
+        </div>
+        <div class="account_box">
+          <label for="birthdate">Birth date</label>
+          <input
+            type="date"
+            id="birthdate"
+            data-placeholder="yyyy/mm/dd"
+            required
+          />
+        </div>
+        <div class="account_box">
+          <label for="happy">How happy are you?</label>
+          <input
+            type="range"
+            id="happy"
+            min="0"
+            max="11"
+            list="tickmarks"
+            required
+          />
+          <datalist id="tickmarks">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </datalist>
+        </div>
+        <div class="account_box">
+          <label for="favcolor">What is your fav. color?</label>
+          <input
+            type="color"
+            id="favcolor"
+            data-placeholder="yyyy/mm/dd"
+            required
+          />
+        </div>
+        <input type="submit" value="Create Account" />
+      </form>
+    </div>
+  </body>
+</html>
