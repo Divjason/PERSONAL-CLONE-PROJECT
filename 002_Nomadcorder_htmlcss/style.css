@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 580px;
+  padding: 40px;
+  box-shadow: 2px 2px 7px #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.account_box {
+  font-size: 25px;
+  margin: 30px;
+}
+.account_box label {
+  display: inline-block;
+  width: 300px;
+  font-weight: bold;
+}
+.account_box input {
+  width: 200px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.account_box input:focus {
+  outline: none;
+  border-color: crimson;
+}
+input[type='date']::before {
+  content: attr(data-placeholder);
+  width: 100%;
+}
+input[type='date']:focus::before,
+input[type='date']:valid::before {
+  display: none;
+}
+input[type='submit'] {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+}
+input[type='submit']:focus {
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIKE</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- 상단 인트로 -->
+    <section class="intro">
+      <div class="intro__dark">
+        <div class="intro__type">
+          <div><span aria-hidden="true">👟</span> 뛰어난 기능성에</div>
+          <div>혁신을 더하다<span class="underscore">_</span></div>
+        </div>
+      </div>
+      <div class="intro__tilt"></div>
+      <div class="intro__tilt--flip"></div>
+    </section>
+    <!-- 헤더와 메뉴 -->
+    <header class="header">
+      <h1>
+        <a class="header__homelink" href="#">
+          <img class="header__logo" src="./images/logo.png" alt="홈으로" />
+        </a>
+      </h1>
+      <input class="header__menu-btn" type="checkbox" />
+      <nav class="header__nav">
+        <ul>
+          <li class="header__nav-item">
+            <a href="#about">New Releases</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#html">Men</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#css">Women</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#curriculum">Kids</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contact">Sale</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 메인과 about -->
+    <main>
+      <section id="about" class="section">
+        <header class="section__header">
+          <strong class="section__tag"> about </strong>
+          <h1 class="section__title">
+            너만을 위한<br />
+            나이키
+          </h1>
+        </header>
+
+        <div class="about">
+          <div class="about__card">
+            <img class="about__icon" src="./images/about_1.svg" alt="" />
+            <h2 class="about__title _1">나이키 트레이딩 클럽</h2>
+            <p class="about__text">
+              NCT 앱으로 개인 맞춤형 <br />
+              트레이닝 가이드를 만나 보세요.
+            </p>
+          </div>
+          <div class="about__card">
+            <img class="about__icon" src="./images/about_2.svg" alt="" />
+            <h2 class="about__title _2">나이키 런 클럽</h2>
+            <p class="about__text">
+              NRC 앱과 함께 언제 어디서든 <br />
+              러닝을 시작해 보세요.
+            </p>
+          </div>
+          <div class="about__card">
+            <img class="about__icon" src="./images/about_3.svg" alt="" />
+            <h2 class="about__title _3">SNKRS 앱</h2>
+            <p class="about__text">
+              최고의 스니커즈, 최신 발매 소식 <br />
+              독점 비하인드 스토리.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Html & CSS 섹션-->
+      <section id="html" class="section">
+        <header class="section__header">
+          <strong class="section__tag"> 혜택 1. </strong>
+          <h1 class="section__title">
+            나이키 앱<br />
+            전용 제품
+          </h1>
+        </header>
+        <article class="html-css _html">
+          <figure class="html-css__thumb">
+            <img
+              class="html-css__logo"
+              src="./images/logo-html.png"
+              alt="HTML 로고"
+            />
+          </figure>
+          <div class="html-css__content">
+            <h2 class="html-css__title">
+              <div>
+                <em>N</em>ike <em>T</em>raining <br />
+                <em>C</em>lub <em>A</em>pp
+              </div>
+            </h2>
+            <p class="html-css__desc">
+              <strong>나이키</strong>앱 멤버들을 위해 준비된 <br />
+              새로운 제품과 스타일을 가장 먼저 만나세요.
+            </p>
+            <dl class="html-css__spec">
+              <dt class="sr-only">종류</dt>
+              <dd>나이키앱</dd>
+              <dt class="sr-only">용도</dt>
+              <dd>멤버십</dd>
+              <dt class="sr-only">난이도</dt>
+              <dd>할인</dd>
+            </dl>
+          </div>
+        </article>
+      </section>
+      <section id="css" class="section">
+        <header class="section__header">
+          <strong class="section__tag"> 혜택 2. </strong>
+          <h1 class="section__title">
+            나이키 첫구매<br />
+            15% 할인
+          </h1>
+        </header>
+        <article class="html-css _css">
+          <figure class="html-css__thumb">
+            <img
+              class="html-css__logo"
+              src="./images/logo-css.png"
+              alt="CSS 로고"
+            />
+          </figure>
+          <div class="html-css__content">
+            <h2 class="html-css__title">
+              <div>
+                <em>N</em>ike <br />
+                <em>R</em>un <em>C</em>lub
+              </div>
+            </h2>
+            <p class="html-css__desc">
+              새로운 스니커즈 문화를 선도할 <br />
+              커뮤니티 <strong>SNKRS</strong> 로 초대합니다.
+            </p>
+            <dl class="html-css__spec">
+              <dt class="sr-only">용도</dt>
+              <dd>스니커즈</dd>
+              <dt class="sr-only">난이도</dt>
+              <dd>SNKRS</dd>
+            </dl>
+          </div>
+        </article>
+      </section>
+      <!-- 커리큘럼 -->
+      <section id="curriculum" class="section">
+        <header class="section__header">
+          <strong class="section__tag"> Nike Journal </strong>
+          <h1 class="section__title">나이키<br />멤버가입 혜택</h1>
+        </header>
+        <div class="curriculum">
+          <ol class="curriculum__list">
+            <li><span>생일쿠폰 혜택</span></li>
+            <li><span>웰컴 쿠폰</span></li>
+            <li><span>오늘도착 서비스</span></li>
+            <li><span>커스텀 서비스</span></li>
+            <li><span>매장픽업 서비스</span></li>
+            <li><span>멤버 구매혜택</span></li>
+            <div class="curriculum__progress"></div>
+          </ol>
+        </div>
+      </section>
+      <!-- 문의하기 -->
+      <section id="contact" class="section">
+        <header class="section__header">
+          <strong class="section__tag"> contact </strong>
+          <h1 class="section__title">문의하기</h1>
+        </header>
+        <div class="contact">
+          <div class="contact__tab">
+            <input name="contact" type="radio" id="ct_1" checked />
+            <label for="ct_1" class="sr-only">연락처</label>
+            <input name="contact" type="radio" id="ct_2" />
+            <label for="ct_2" class="sr-only">메시지</label>
+            <div class="contact__slides">
+              <div class="contact__slide-con">
+                <div class="contact__slide">
+                  <address>
+                    <table class="contact__contacts">
+                      <caption class="sr-only">
+                        연락처 목록
+                      </caption>
+                      <tr>
+                        <th>유튜브</th>
+                        <td>
+                          <a
+                            href="https://www.youtube.com/@nike"
+                            target="_blank"
+                            alt="새 창에서 열기"
+                          >
+                            <!-- <img src="./images/youtube.svg" alt="" /> -->
+                            youtube.com/@nike
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>웹사이트</th>
+                        <td>
+                          <a
+                            href="https://www.nike.com/"
+                            target="_blank"
+                            alt="새 창에서 열기"
+                          >
+                            www.nike.com
+                          </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>이메일</th>
+                        <td>
+                          <a href="mailto:sejinpark@tcocs.com">
+                            korea@nike.com
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </address>
+                </div>
+                <div class="contact__slide">
+                  <form action="#" method="get">
+                    <div class="contact__leave">
+                      <textarea
+                        name="message"
+                        placeholder="메시지를 입력하세요."
+                        required
+                      ></textarea>
+                      <div>
+                        <input
+                          name="email"
+                          type="email"
+                          placeholder="메일주소를 입력하세요."
+                          required
+                        />
+                        <button type="submit">남기기</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 푸터 -->
+    <footer>
+      <h1 class="sr-only">Copyright</h1>
+      <p>2023 NIKE KOREA - All rights reserved</p>
+    </footer>
+  </body>
+</html>
