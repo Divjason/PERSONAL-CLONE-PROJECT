@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#wrap {
+  width: 1200px;
+  height: 800px;
+  border: 1px solid #f00;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  border-radius: 30px;
+  width: 328px;
+  height: 80%;
+  background: #fff;
+  box-shadow: 8px 8px 10px rgba(238, 238, 238, 0.4);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftBox-header {
+  /* border: 1px solid #f00; */
+  width: 100%;
+  height: 50%;
+}
+.leftBox-header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+.leftBox-header-circle {
+  background: url(./img/1.jpg) center center;
+  background-size: cover;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+  filter: brightness(1.5);
+  margin: auto;
+  margin-bottom: 26px;
+}
+.leftBox-header-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.leftBox-header-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.leftBox-header-title span {
+  color: #999;
+  font-weight: bold;
+  font-size: 15px;
+}
+.leftBox-header-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.leftBox-header-btn .lbtn {
+  width: 118px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftBox-header-btn .rbtn {
+  width: 118px;
+  height: 30px;
+  background: #fff;
+  font-size: 14px;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  gap: 6px;
+  position: relative;
+}
+.leftBox-header-btn .rbtn i {
+  font-size: 20px;
+  color: #f00;
+}
+.leftBox-header-btn .rbtn span {
+  padding-bottom: 5px;
+}
+.leftBox-contents {
+  border: 1px solid #00f;
+  width: 100%;
+  height: 100%;
+}
+.leftBox-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.leftBox-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.left-item-img {
+  background: url(./img/2.jpg) center center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+}
+.left-item-title span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+}
