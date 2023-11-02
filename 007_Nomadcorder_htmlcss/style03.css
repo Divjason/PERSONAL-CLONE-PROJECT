@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#wrap {
+  width: 370px;
+  height: 710px;
+  /* border: 1px solid #000; */
+  position: relative;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  background: #ffce33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  font-size: 18px;
+  padding-top: 0px;
+}
+#header span {
+  font-weight: bold;
+}
+#search {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#search input {
+  width: 320px;
+  height: 40px;
+  padding-left: 30px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3);
+}
+#search input::placeholder {
+  color: #ddd;
+}
+#search input:focus::placeholder {
+  opacity: 0;
+}
+#search span {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #ddd;
+}
+#booksection {
+  padding: 25px 25px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  /* align-items: flex-start; */
+  width: 95%;
+  margin: auto;
+  /* border: 1px solid #f00; */
+}
+#booksection h3 {
+  margin: 15px 0;
+}
+.booksection_contents {
+  display: flex;
+  justify-content: space-between;
+}
+.booksection_contents_photo {
+  border-radius: 10px;
+  width: 32%;
+  height: 150px;
+}
+.booksection_contents_photo img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center center;
+}
+.booksection_contents_info {
+  /* border: 1px solid #f00; */
+  width: 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 16px;
+}
+.booksection_contents_info p {
+  font-size: 12px;
+  color: #ddd;
+  margin: 3px 0;
+}
+.booksection_contents_info span {
+  font-size: 12px;
+}
+.booksection_contents_info span i {
+  color: #ffce33;
+}
+.booksection_contents_info span i:nth-child(5) {
+  color: #ddd;
+}
+.booksection_contents_btn01 {
+  margin: 10px 0;
+}
+.booksection_contents_btn01 a {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+  background: #f3f3f3;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.booksection_contents_btn02 {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid #f00; */
+  width: 90%;
+  gap: 30px;
+}
+.booksection_contents_btn02 span {
+  /* border: 1px solid #f00; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background: #ffce33;
+}
+.booksection_contents_btn02 span i {
+  color: #000;
+}
+.booksection_contents_btn02 a {
+  font-size: 12px;
+  background: #000;
+  color: #fff;
+  padding: 7px 24px;
+  border-radius: 3px;
+}
+
+.booksection_contents_books {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.booksection_contents_bookitem {
+  width: 23%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+}
+.booksection_contents_bookitem img {
+  width: 100%;
+  height: 98px;
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: top center;
+}
+.booksection_contents_bookitem span {
+  font-size: 8px;
+}
+.booksection_contents_bookitem span i {
+  color: #ffce33;
+}
+.booksection_contents_bookitem span i:nth-child(5) {
+  color: #ddd;
+}
+
+.booksection_contents_bookitem:nth-child(4) span {
+  position: relative;
+  display: inline-block;
+}
+
+.booksection_contents_bookitem:nth-child(4) span::before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  top: -1190%;
+  left: 50%;
+}
+.booksection_contents_author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booksection_contents_author_img {
+  width: 30%;
+}
+.booksection_contents_author_img img {
+  width: 100%;
+  height: 120px;
+  border-radius: 7px;
+  object-fit: cover;
+  object-position: top center;
+}
+.booksection_contents_author_info {
+  width: 64%;
+}
+.booksection_contents_author_info p {
+  font-size: 11px;
+  line-height: 1.5em;
+  margin-top: 9px;
+  color: #ddd;
+}

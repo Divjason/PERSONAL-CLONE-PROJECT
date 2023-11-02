@@ -1,0 +1,28 @@
+1.레이아웃 구성하기
+html + css
+
+2.뮤직플레이어 패널 생성하기
+html + css + js
+
+3.전체 패널 아래쪽으로 내리기
+css
+
+4.가운데 패널 활성화하기
+html + css
+
+5.패널에 음악 커버 이미지 생성하기
+html + css + js
+
+6.음악정보 및 컨트롤 버튼 생성하기
+html + css
+
+7.컨트롤 패널 버튼으로 음악 재생,정지하기
+css + js
+
+8.좌우버튼 클릭 시, 패널 회전시키기
+html + css + js
+
+9.현재 재생중인 오디오 회전 시, 자동 종료 및 이동한 플레이어 자동재생
+js
+
+https://velog.io/@eenaree/background-position-value

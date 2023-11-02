@@ -1,0 +1,22 @@
+1.html 뼈대구조 만들기
+- main / header / nav / section
+
+2.reset css 설정하기
+
+3.배경 및 레이아웃 css 설정하기
+
+4.main css
+
+5.nav css
+
+6.section css
+
+7.section > video css
+
+8.mousehover effect
+
+9.video play (JS)
+
+10.item click show
+
+11.video change
